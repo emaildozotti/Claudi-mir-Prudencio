@@ -37,7 +37,7 @@ function App() {
   };
 
   const openWhatsApp = () => {
-    const phone = '555499081203';
+    const phone = '5554999326723';
     const message = encodeURIComponent('Olá Claudiômir, vim através do seu site e gostaria de agendar uma conversa de orientação.');
     window.open(`https://wa.me/${phone}?text=${message}`, '_blank');
   };
